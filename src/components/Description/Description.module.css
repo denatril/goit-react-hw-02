@@ -1,0 +1,8 @@
+.description {
+  margin-bottom: 20px;
+}
+.title {
+  margin: 0 0 24px;
+  font-size: clamp(32px, 6vw, 48px);
+  line-height: 1.15;
+}

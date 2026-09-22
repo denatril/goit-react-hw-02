@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.options button {
+  min-height: 44px;
+  padding: 6px 14px;
+  border: 1px solid #858585;
+  border-radius: 4px;
+  background: #f1f1f1;
+  color: #171717;
+  font: inherit;
+  cursor: pointer;
+}
+.options button:hover {
+  background: #dedede;
+}
+.options button:focus-visible {
+  outline: 3px solid #185abc;
+  outline-offset: 3px;
+}
